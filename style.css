@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: consolas;
+}
+
+html,
+body {
+  background-image: url(../images/background.png);
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100%;
+  align-items: center;
+  background-color: #121213;
+}
+
+.menu {
+  width: 70px;
+  height: 100vh;
+  margin-left: 25px;
+  margin-right: 80px;
+  text-align: left;
+  border-right: solid;
+  position: fixed;
+  z-index: 1;
+  border-width: 2px;
+  border-color: #b5bdbc;
+}
+
+.menu ol {
+  list-style: none;
+  margin-top: 40rem;
+}
+
+.menu ol li a {
+  list-style: none;
+  font-size: 25px;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.home {
+  padding-bottom: 1150px;
+  text-align: left;
+  display: inline-block;
+  height: 10vh;
+  margin-left: 160px;
+
+  color: #b5bdbc;
+}
+
+.home h1 {
+  font-size: 100px;
+}
+
+.home h2 {
+  font-size: 50px;
+}
+
+.home h5 {
+  font-size: 15px;
+}
+
+#cont {
+  border: solid;
+  text-align: left;
+  border-width: 2px;
+  border-color: #00f2ea;
+  color: #00f2ea;
+  font-size: 19px;
+}
+
+#cont div {
+  margin: 10px;
+}
+
+.home h1:hover {
+  color: #00f2ea;
+}
+
+.home h2:hover {
+  color: #00f2ea;
+}
+
+.home h5:hover {
+  color: #00f2ea;
+}
+
+#cont div:hover {
+  margin: 15px;
+  color: #ff0050;
+}
+
+#about {
+  display: block;
+  padding-bottom: 1215px;
+  margin-left: 160px;
+  text-align: left;
+  height: 100vh;
+  color: #b5bdbc;
+}
+#about h1 {
+  font-size: 80px;
+  color: #00f2ea;
+}
+
+#about h2 {
+  font-size: 50px;
+}
+
+#about h5 {
+  font-size: 15px;
+}
+
+image {
+  align-self: flex-start;
+}
+
+#wor {
+  border: solid;
+  text-align: left;
+  border-width: 2px;
+  border-color: #00f2ea;
+  color: #00f2ea;
+  margin-top: 50px;
+  width: 30rem;
+}
+
+#wor div {
+  font-size: 25px;
+  margin: 12px;
+}
+#wor div:hover {
+  margin: 15px;
+  color: #ff0050;
+}
+
+#skill {
+  display: block;
+  padding-bottom: 1215px;
+  margin-left: 160px;
+  text-align: left;
+  height: 100vh;
+  color: #b5bdbc;
+}
+#skill h1:hover {
+  color: #00f2ea;
+}
+#skill h2:hover {
+  color: #00f2ea;
+}
+
+#work {
+  /*background-color: #ff0050;*/
+  display: block;
+  padding-bottom: 1215px;
+  margin-left: 160px;
+  text-align: left;
+  height: 100vh;
+  color: #b5bdbc;
+}
+.card {
+  border: 2px solid white;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: white;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  margin-right: 10px;
+}
+.card img {
+  width: 35rem;
+  height: 20rem;
+}
+
+#first {
+  float: left;
+}
+
+#second {
+  float: right;
+}
+
+#contact {
+  display: block;
+  margin-left: 160px;
+  text-align: left;
+  height: 100vh;
+  color: #00f2ea;
+}
+
+input {
+  width: 600px;
+  height: 60px;
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  color: #00f2ea;
+  background-color: black;
+  border-color: #00f2ea;
+  border-width: 4px;
+}
+
+button {
+  margin-left: 10px;
+  width: 123rem;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #00f2ea;
+  background-color: black;
+  border-color: #00f2ea;
+  border-width: 3px;
+}
+
+#inputs {
+  margin-top: 30rem;
+}
+
+::placeholder {
+  color: #00f2ea;
+}
+
+#body_m {
+  width: 610px;
+  height: 60px;
+  margin: 10px;
+  color: #00f2ea;
+  border: solid;
+  border-radius: 10px;
+  border-width: 4px;
+  border-color: #00f2ea;
+}
