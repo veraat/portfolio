@@ -16,13 +16,14 @@ body {
 }
 
 .menu {
-  width: 70px;
+  width: 150px;
   height: 100vh;
-  margin-left: 25px;
-  margin-right: 80px;
   text-align: left;
   border-right: solid;
+  margin-right: 10px;
+  display: flex;
   position: fixed;
+  top:0;
   z-index: 1;
   border-width: 2px;
   border-color: #b5bdbc;
@@ -47,7 +48,7 @@ body {
   display: inline-block;
   height: 10vh;
   margin-left: 160px;
-
+  
   color: #b5bdbc;
 }
 
@@ -101,7 +102,7 @@ body {
   height: 100vh;
   color: #b5bdbc;
 }
-#about h1 {
+#about h1, #work h1 {
   font-size: 80px;
   color: #00f2ea;
 }
@@ -160,6 +161,7 @@ image {
   text-align: left;
   height: 100vh;
   color: #b5bdbc;
+  align-items: center;
 }
 .card {
   border: 2px solid white;
@@ -177,11 +179,15 @@ image {
 }
 
 #first {
-  float: left;
+ display: flex;
 }
 
 #second {
-  float: right;
+  float: center;
+}
+
+#third {
+  float
 }
 
 #contact {

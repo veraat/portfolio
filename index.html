@@ -9,22 +9,35 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/776fa31e26.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="menu">
-        <ol>
-            <li>                
-                <a href="#main"><i class="fas fa-home"></i></a>
-            </li>
-            <li><a href="#about"><i class="fas fa-user"></i></a></li>
-            <li><a href="#skill"><i class="fas fa-cog"></i></a></li>
-            <li><a href="#work"><i class="fas fa-eye"></i></a></li>
-            <li><a href="#contact"><i class="far fa-envelope"></i></a></li>
-        </ol>
+<div class="container" style = "margin-left: 0;"> 
+
+    <div class="menu row-md-1 " style="height: 100%;">
+        <div style="width: 200px; ">
+            <ol>
+                <li style="display: flex;">                
+                    <a href="#main" style="flex: 1"><i class="fas fa-home"><h3>Home</h3></i></a>
+                </li>
+                <li><a href="#about"><i class="fas fa-user"><h3>About Me</h3> </i></a></li>
+                <li><a href="#skill"><i class="fas fa-cog"><h3>Skills</h3></i></a></li>
+                <li><a href="#work"><i class="fas fa-eye"><h3>Projects</h3></i></a></li>
+                <li><a href="#contact"><i class="far fa-envelope"><h3>Contact</h3></i></a></li>
+            </ol>
+        </div>
     </div>
+
     <div class="screen">
-    <div>
+    </div>
+    
     <br>
     <div class="home" id="main">
         <img src="logo.jpeg" height="500px" width="500px" style="margin-left: 500px;">
@@ -37,110 +50,200 @@
         <br>
         <h5>Front End Developer / React Native Developer</h5>
         <br>
-        <a href="#contact">
+        <a href="#contact"  style="text-decoration: none;">
         <h2 id="cont"><div>Contact Me </div></h2>
         </a>
         <br>
     </div>
-</div>
-<br>
-<br>
-<center>
-    <div id="about">
-        <img src="logo.jpeg" height="500px" width="500px" style="margin-left: 500px;">        <h1>About me</h1>
-        <h3>I'm Veraat Gupta. I live in india. I am a front developer </h3>
-        <h3>and I am learning react native. I have many websites with js.</h3>
-        <br>
-        <h3>You can see what I know by going in the next tab.</h3>
-        <br>
-        <h3>You can see what I have made by clicking the button.</h3>
-        <a href="#work">
-        <div id="wor" ><h2><div>Click me! </div></h2></div>
-    </a>
-        <br>
-    </div>
-    <div id="skill">
-        <div class="loader">
-            <img src="logo.jpeg" height="500px" width="500px" style="margin-left: 500px;">            <h1>Hi! This is what I know </h1>
-            <h2>1. HTML</h2>
-            <h2>2. CSS</h2>
-            <h2>3. JS (Javascript)</h2>
-            <h2>4. Bootstrap</h2>
-            <h2>5. React Native</h2>
+        
+        
+    <br>
+    <br>
+    <center>
+        <div id="about">
+            <img src="logo.jpeg" height="500px" width="500px" style="margin-left: 500px;">        <h1>About me</h1>
+            <h3>I'm Veraat Gupta. I live in india. I am a front developer </h3>
+            <h3>and I am learning react native. I have many websites with js.</h3>
+            <br>
+            <h3>You can see what I know by going in the next tab.</h3>
+            <br>
+            <h3>You can see what I have made by clicking the button.</h3>
+            <a href="#work" style="text-decoration: none;">
+            <div id="wor" ><h2><div>Click me! </div></h2></div>
+        </a>
+            <br>
         </div>
-    </div>
-    <div id="work">
-        <section>
-            <div id="first">
+        <div id="skill">
+            <div class="loader">
+                <img src="logo.jpeg" height="500px" width="500px" style="margin-left: 500px;">
+                <h1>Hi! This is what I know </h1>
                 <br>
-                <a href="https://veraat.github.io/apex/">
-                    <div class="card">
-                        <img src="apex.png">
-                        <h2>Apex Legend Website</h2>
-                    </div>
-                </a>
+                <div>  
+                    <h2>1. Web Developement</h2>
+                     <div class="progress" style="text-align:left; border-radius: 20px;">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        
+                            75%
+                        
+                        </div>
+                      </div>
+                </div> 
                 <br>
-                <a href="https://rdadcfv9xzsn2hemquobza-on.drv.tw/Dps/">
-                    <div class="card" >
-                        <img src="dps.png">
-                        <h2>Dps website</h2>
+                <div>  
+                    <h2>2. Python</h2>
+                    
+                    <div class="progress" style="text-align:left; border-radius: 20px;">
+                        <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            
+                            50%
+                            
+                        </div>
                     </div>
-                </a>
+                </div> 
                 <br>
-                <span>
-                <a href="https://rdadcfv9xzsn2hemquobza-on.drv.tw/notes%20app/">
-                    <div class="card">
-                        <img src="notes.png">
-                        <h2>Notes website</h2>
+                <div>  
+                    
+                    <h2>3. Machine Learning</h2>
+                    
+                    <div class="progress" style="text-align:left; border-radius: 20px;">
+                        <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                        
+                            90%
+                            
+                        </div>
                     </div>
-                </a>
+                </div> 
+                <br>
+                <div>  
+                    <h2>5. React Native</h2>
+                    
+                    
+                    <div class="progress" style="text-align:left; border-radius: 20px;">
+                        <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                            
+                            60%
+                            
+                        </div>
+                    </div>
+                </div> 
+                <br>
+                <div>  
+                    <h2>6.Rasberry Pi</h2>
+                    
+                    
+                    <div class="progress" style="text-align:left; border-radius: 20px;">
+                        <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                            
+                            20%
+                            
+                        </div>
+                    </div>
+                </div> 
+                
+                <br>
+                
+                
             </div>
-            <div id="second">
-                <br>
-                <a href="https://veraat.github.io/video/">
-                    <div class="card">
-                        <img src="video.png">
-                        <h2>Video calling Website</h2>
-                    </div>
-                </a>
-                <br>
-                <a href="https://rdadcfv9xzsn2hemquobza-on.drv.tw/Pizza%20menu/">
-                    <div class="card" >
-                        <img src="pizza.png">
-                        <h2>Pizza website</h2>
-                    </div>
-                </a>
-                <br>
-                <span>
-                <a href="https://rdadcfv9xzsn2hemquobza-on.drv.tw/Responsive_circle/">
-                    <div class="card">
-                        <img src="responsive_circle.png">
-                        <h2>Touch Responsive website</h2>
-                    </div>
-                </a>
-            </div>
-        </section>
-    </div>
-    <div id="contact">
-           <h2>Contact me by calling 91+ 8130789135 or email me by filling all text inputs</h2>
-           <section id="inputs">
-               <form method="POST" action="https://formspree.io/f/xvodrbga" > 
-                <section>
-                    <input type="text" name="name" placeholder="Name" id="Name">
-                    <input type="text" name="_replyto" placeholder="Email" id="ema">
-                </section>
-                <section>
-                    <input type="text" name="subject" style="width: 123rem;" placeholder="Subject" id="sub">
-                </section>
-                <section>
-                    <h3 style="margin-left: 10px;">Your Query </h3>
-                    <textarea id="body_m" name="body" type="text" style=" min-width: 122rem; min-height: 10rem; text-align: left; display: inline-block; max-width: 123rem; background-color: black;" ></textarea>
-                </section>
+        </div>
+        <div id="work">
+            <h1>My Projects!</h1>
+            <br>
+            <section style="margin-left: 30%; width: 100%; text-align: center">
+                <div id="first" class="navbar">
+                    <br>
+                    <a href="https://veraat.github.io/apex/">
+                        <div class="card">
+                            <img src="apex.png">
+                            <h2>Apex Legend Website</h2>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="https://veraat.github.io/dps/">
+                        <div class="card" >
+                            <img src="dps.png">
+                            <h2>Dps website</h2>
+                        </div>
+                    </a>
+                    <br>
+                    <span>
+                    <a href="https://veraat.github.io/notes/">
+                        <div class="card">
+                            <img src="notes.png">
+                            <h2>Notes website</h2>
+                        </div>
+                    </a>
+                </div>
+                <div id="second" class="navbar">
+                    <br>
+                    <a href="https://veraat.github.io/video/">
+                        <div class="card">
+                            <img src="video.png">
+                            <h2>Video calling Website</h2>
+                        </div>
+                    </a>
+                    <br>
+                    <a href=" https://veraat.github.io/calculater/">
+                        <div class="card" >
+                            <img src="calculater.png">
+                            <h2>Calculater</h2>
+                        </div>
+                    </a>
+                    <br>
+                    <span>
+                    <a href="https://rdadcfv9xzsn2hemquobza-on.drv.tw/Responsive_circle/">
+                        <div class="card">
+                            <img src="responsive_circle.png">
+                            <h2>Touch Responsive website</h2>
+                        </div>
+                    </a>
+                </div>
+                <div id="third" class="navbar">
+                    <br>
+                    <a href="https://veraat.github.io/Firechat/">
+                        <div class="card">
+                            <img src="Firechat.png">
+                            <h2>Firechat</h2>
+                        </div>
+                    </a>
+                    <br>
+                    <a href="https://veraat.github.io/Quiz_Website/">
+                        <div class="card" >
+                            <img src="quiz.png">
+                            <h2>Quiz</h2>
+                        </div>
+                    </a>
+                    <br>
+                    <span>
+                    <a href="https://veraat.github.io/Ping-Pong/">
+                        <div class="card">
+                            <img src="Ping-Pong.png">
+                            <h2>Ping-Pong Using P5.js</h2>
+                        </div>
+                    </a>
+                </div>
             </section>
-                <button type="submit" value="Send">Send</button>> 
-            </form> 
-    </div>
-</center>
-<script src="./js/code.js"></script>
+        </div>
+        <div id="contact" class="container">
+            <h2>Contact me by calling 91+ 8130789135 or email me by filling all text inputs</h2>
+            <section id="inputs">
+                <form method="POST" action="https://formspree.io/f/xvodrbga" > 
+                    <section>
+                        <input type="text" name="name" placeholder=" Name" id="Name">
+                        <input type="text" name="_replyto" placeholder=" Email" id="ema">
+                    </section>
+                    <section>
+                        <input type="text" name="subject" style="width: 123rem;" placeholder=" Subject" id="sub">
+                    </section>
+                    <section>
+                        <h3 style="margin-left: 10px;">Your Query </h3>
+                        <textarea id="body_m" name="body" type="text" style=" min-width: 122rem; min-height: 10rem; text-align: left; display: inline-block; max-width: 123rem; background-color: black;" ></textarea>
+                    </section>
+                </section>
+                    <button type="submit" value="Send">Send</button> 
+                </form> 
+        </div>
+    </center>
+</div>
+<script src="code.js"></script>
 </body>
 </html>
